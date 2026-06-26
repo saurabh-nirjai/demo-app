@@ -4,7 +4,7 @@ services:
   html-app:
     build:
       context: .
-      Dockerfile: Dockerfile
+      dockerfile: dockerfile
     container_name: html-app
     ports:
       - "8080:80"
